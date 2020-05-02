@@ -13,6 +13,7 @@ if __name__ == '__main__':
     divisors_list = []
     i = 1
     max = 0
+    #this program is used to find the divisors in minimum time.
     while i <= math.sqrt(n):
         if n % i == 0:
             if n / i == i:
